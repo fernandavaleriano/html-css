@@ -1,0 +1,55 @@
+/* Estilos básicos para os temas */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Tema Claro */
+body.light-theme {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header.light-theme {
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer.light-theme {
+    background-color: #333;
+    color: white;
+}
+
+/* Tema Escuro */
+body.dark-theme {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+header.dark-theme {
+    background-color: #555;
+    color: #f0f0f0;
+}
+
+footer.dark-theme {
+    background-color: #111;
+    color: #f0f0f0;
+}
+
+/* Estilos do Botão */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
