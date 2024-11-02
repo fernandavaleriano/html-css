@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+* {
+    margin: top right bottom left;
+    padding: top right bottom left;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+   font-family: 'monospace' , sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   color: black;
+   text-align: center;
+   text-shadow: 1px 0px 1px 0px;
+   letter-spacing: 2px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vh;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vg;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+
+section.texto01 {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: -80px;
+}
+
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.527);
+    background-attachment: fixed;
+    text-align: center;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.692);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01{
+    background-image: url(../projeto/imagens/mercerdes.png.png);
+    background-position: right center;
+    background-size: cover;
+}
+
+
+section#img02 {
+    background-image: url(../projeto/imagens/merdes01.png.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
