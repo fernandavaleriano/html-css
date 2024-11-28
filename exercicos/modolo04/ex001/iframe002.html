@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ratione consequatur, suscipit omnis, repudiandae ullam perferendis ipsum quos et eos itaque dolorum iste deleniti consectetur. Nobis, accusamus veritatis? Dolore, quo?</p>
+    <ul>
+        <li><a href="paginas-extras/pag01.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag02.html" target="frame">Segund apágina</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, suscipit. Veritatis autem, minus officia voluptatibus ut nisi quo totam, ipsa optio blanditiis libero odio ad voluptates iste accusamus distinctio expedita. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem odit eius aliquam vitae natus sequi fugiat minus ratione, omnis repellat ad ipsam. Beatae corrupti quod quam aliquam architecto illum dolorem!</p>
+   
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><img scr='imagens/nike.png'">
+        <p>Infezlimente seu navegador não é compativel com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vero reiciendis error magni inventore nisi officia, nihil deleniti facere excepturi quidem recusandae, unde et hic dignissimos amet eius! Atque, nemo!Lorem</p>
+</body>
+</html>
